@@ -17,11 +17,11 @@
       padding: 40px 20px;
       background: #e8f5e9;
     }
-    .content {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      text-align: center;
+    .cover {
+      max-width: 280px;
+      width: 80%;
+      margin: 20px auto;
+      display: block;
     }
     .author {
       width: 160px;
@@ -32,16 +32,16 @@
       margin: 30px auto 20px;
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
-    .cover {
-      max-width: 300px;
-      width: 90%;
-      margin: 20px auto;
-      display: block;
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
     }
     h2 {
       font-size: 1.6rem;
-      color: #222;
-      margin-top: 20px;
+      color: #388e3c;
+      margin-bottom: 10px;
     }
     p {
       font-size: 1rem;
@@ -50,6 +50,12 @@
     }
     strong {
       font-weight: 700;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      font-weight: bold;
+      color: #388e3c;
     }
     .features {
       display: flex;
@@ -70,10 +76,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-    }
-    .check {
-      font-size: 1.2rem;
-      margin-right: 8px;
     }
     iframe {
       width: 100%;
@@ -100,7 +102,7 @@
     }
     .garantia {
       text-align: center;
-      background: #eee;
+      background: #f0f0f0;
       padding: 40px 20px;
     }
     .garantia img {
@@ -109,6 +111,26 @@
     }
     .garantia h2 {
       color: #2e7d32;
+    }
+    .youtube-clean {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .youtube-clean a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border: 1.5px solid #388e3c;
+      border-radius: 30px;
+      font-size: 0.95rem;
+      color: #388e3c;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .youtube-clean a:hover {
+      background: #e8f5e9;
     }
     footer {
       padding: 20px;
@@ -121,7 +143,7 @@
 <body>
 
   <header>
-    <img src="bannervegano1.png" alt="Mockup Queria Ser Vegan" class="cover">
+    <img src="banner.png" alt="Mockup Queria Ser Vegan" class="cover">
   </header>
 
   <div class="content">
@@ -129,10 +151,12 @@
     <img src="autora.png" alt="Foto da autora Andreia Farias" class="author">
 
     <h2>CONHEÇA A ANDRÉIA FARIAS</h2>
-    <p><strong>Andreia Farias é educadora física e pratica o estilo de vida livre de crueldade animal há 6 anos.</strong> Andreia, assim como muitas pessoas, acreditava que alimentação vegana é cara e exclusivamente para pessoas com alto poder aquisitivo.</p>
-    <p><strong>Ela estava errada.</strong> Andreia então descobriu a grande verdade: ser vegano pode sim ser barato!</p>
+    <p><strong>Andreia Farias</strong> é educadora física e pratica o estilo de vida livre de crueldade animal há 6 anos.</p>
+    <p>Andreia, assim como muitas pessoas, acreditava que alimentação vegana é cara e exclusivamente para pessoas com alto poder aquisitivo.</p>
+    <p><strong>Ela estava errada.</strong></p>
+    <p>Andreia então descobriu a grande verdade: ser vegano pode sim ser barato!</p>
     <p>E mais, ela ainda concluiu que a cozinha vegana pode ser:</p>
-    <ul style="list-style:none; padding:0; font-weight:600; color:#388e3c;">
+    <ul>
       <li>✅ fácil</li>
       <li>✅ prática</li>
       <li>✅ deliciosa</li>
@@ -159,14 +183,30 @@
     <h2>VOCÊ TEM 7 DIAS DE GARANTIA INCONDICIONAL!</h2>
     <p><strong>- SEU DINHEIRO DE VOLTA SE NÃO GOSTAR -</strong></p>
     <img src="garantia.png" alt="Selo Garantia de 7 Dias">
-    <p>Você ainda tem alguma dúvida de que o livro de receitas Queria Ser Vegan é ideal para você?</p>
+    <p>Você ainda tem alguma dúvida de que o livro de receitas <strong>Queria Ser Vegan</strong> é ideal para você?</p>
     <p>Sem problemas, tire proveito da garantia incondicional de 7 dias e teste por você mesma(o).</p>
     <p><strong>RECEITAS QUE TE AJUDARÃO A SE ADAPTAR AO VEGANISMO OU SEU DINHEIRO DE VOLTA!</strong></p>
     <p><strong>Esse e-book será entregue em formato 100% digital</strong></p>
   </div>
 
+  <!-- Novo botão de afiliado elegante -->
+  <div class="youtube-clean">
+    <a href="https://go.hotmart.com/F101173511X" target="_blank">
+      <img src="https://img.icons8.com/ios-glyphs/20/388e3c/shopping-cart.png" alt="Comprar">
+      <span>Quero me tornar vegano com ajuda da Andreia!</span>
+    </a>
+  </div>
+
+  <!-- Botão elegante para o canal do YouTube -->
+  <div class="youtube-clean">
+    <a href="https://youtube.com/@veganalegal5004?si=TWzPk1rFjj5JmEHM" target="_blank">
+      <img src="https://img.icons8.com/ios-filled/20/388e3c/youtube-play.png" alt="YouTube">
+      <span>Visite o canal Vegana Legal no YouTube</span>
+    </a>
+  </div>
+
   <footer>
-    Produto digital • Link otimizado para Google Ads • Garantia incondicional de 7 dias
+    Produto digital • Página de pré-venda • Garantia de 7 dias • Site do afiliado
   </footer>
 
 </body>
